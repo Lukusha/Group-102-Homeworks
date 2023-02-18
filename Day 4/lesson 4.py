@@ -81,7 +81,7 @@
 
 
 
-
+                                    ######### HOMEWORK ##########
 
 name1 = input("Enter first name : ")
 name2 = input("Enter second name : ")
@@ -99,8 +99,8 @@ for char in name2 :
 
 
 if tanxmovnebi_in_name1>tanxmovnebi_in_name2 :
-    print("Amount of vowels in name 1 contains {} consonants and is more than the second name".format(tanxmovnebi_in_name1))
+    print("Amount of consonants in name 1 contains {} consonants and is more than the second name".format(tanxmovnebi_in_name1))
 elif tanxmovnebi_in_name2>tanxmovnebi_in_name1 :
-    print("Amount of vowels in name 2 contains {} consonants and is more than the second name".format(tanxmovnebi_in_name2))
+    print("Amount of consonants in name 2 contains {} consonants and is more than the second name".format(tanxmovnebi_in_name2))
 else :
     print("They have equal amount")
