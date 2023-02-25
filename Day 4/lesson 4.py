@@ -90,11 +90,11 @@ tanxmovnebi_in_name1 = 0
 tanxmovnebi_in_name2 = 0
 
 for char in name1 :
-    if char not in "aeiou" :
+    if char in "bcdfghjklmnpqrstvwxyz" :
         tanxmovnebi_in_name1 += 1
 
 for char in name2 :
-    if char not in "aeiou" :
+    if char  in "bcdfghjklmnpqrstvwxyz" :
         tanxmovnebi_in_name2 += 1
 
 

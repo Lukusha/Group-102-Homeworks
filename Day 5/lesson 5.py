@@ -42,32 +42,18 @@
 
 
 
-# a = "qwerty"
-# b = "asdfgh"
+a = "qwerty"
+b = "asdfgh"
 
-# i = 0
+i = 0
 
-# while i < len(a) :
-#     print(a[i]+b[i])
-#     i += 1
+while i < len(a) :
+    print(a[i]+b[i])
+    i += 1
 
 
 # if 10>5 and 3>1 :
 #     print("cool")
 
-                                            ####### BASIC CALCULATOR #######        
-num1 = int(input("Enter the first number : "))
-num2 = int(input("Enter the second number : "))
-op = input("Enter the operator (+,-,/,*) : ")
-if op == "+" :
-    print(num1+num2)
-elif op == "-" :
-    print(num1-num2)
-elif op == "/" : 
-    print(num1/num2)
-elif op == "*" :
-    print(num1*num2)
-else : 
-    print("Wrong Operator. Try again.")
-
+                                              
 
